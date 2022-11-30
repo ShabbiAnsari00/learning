@@ -1,0 +1,35 @@
+
+	Revenue:	Income
+	
+	Why struct?
+		-> We will be engaged in data processing most of the time
+		   while dealing with programs.
+		   
+	int	-	can store 1 integer
+	int[] - can store n integers
+	
+	date
+	time
+	resume
+	
+	Windows 10
+	Windows 11
+	
+	Windows 2019 server
+		- File Server
+		- Mail Server
+		- Web Server
+		- Active Directory Server
+		
+
+	Paradigm:
+		- Structured Programming
+		- Procedure Oriented Programming
+		
+	As per storage class variables may be classified as:
+		1. Local (auto)
+		2. Global
+		3. Static
+		4. Register
+		
+	register int a;
