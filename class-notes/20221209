@@ -1,0 +1,6 @@
+
+	WAP to ask a question "Who is the inventor of C Language?".
+	Accept the answer and print "Very Good!" and exit the program
+	if the answer is correct. Display "Try again" if the answer is
+	incorrect. Display the correct answer if the user gives incorrect
+	answer at the third attempt too.
