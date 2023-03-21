@@ -1,0 +1,13 @@
+
+	2^3	= 8
+	log b2 8 = 3
+	
+	3^2 = 9
+	log b3 9 = 2
+	
+	O(log n)
+	
+	Sorted - binary
+	Unsorted - linear
+	
+	int arr[] = {1, 5, 12, 78, 88}

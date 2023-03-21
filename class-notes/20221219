@@ -1,0 +1,28 @@
+Programming Language	-	Does not depent on another language
+Scripting Language	-	Depends on another language (Client-side/Server-side)
+
+Wayland
+GDI
+
+Seperation of Concern
+
+Single Responsibility
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+Even-driven Programming
+
+http://shemfordmuzaffarpur.in/
+
+https://www.prabhattaraschool.in/noticeboard
+
+Files
+
+C	-	Create
+R	-	Read
+U	-	Update
+D	-	Delete
+
+Database Management System

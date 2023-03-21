@@ -1,0 +1,52 @@
+
+	String
+		char name[50];
+		
+	
+	EOF - End of File
+	
+	static	-	while compiling
+	dynamic - 
+	
+	
+	int a;
+	char name[50];
+	int *p;
+	
+	Type casting
+	
+	int a = 10;
+	float b = 20.4;
+	
+	b = a;			//fine
+	a = (int)b;		//not fine as it will result in loss of precision
+	
+	
+	Data structure: A logical arrangement of data for processing it
+					efficiently.
+	
+	Linear		
+		Array (Fixed)
+		Linked-List (Flexible)
+		Stack (LIFO) - Last In First Out
+		Queue (FIFO) - First In First Out
+		
+	Non-Linear
+		Tree
+		Graph
+		
+	Traversal
+	Insert
+	Remove
+	Search
+	Sort
+	Merge
+	
+	
+	1 	2	3	4	5
+	
+	3	4	5	1	2
+	
+	
+	
+	

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Program</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+   
+    <form>
+        <label for="augend">Augend</label>
+        <input type="text" name="augend" id="augend">
+        <label for="addend">Addend</label>
+        <input type="text" name="addend" id="addend">
+        <label for="sum">Sum</label>
+        <input type="text" name="sum" id="sum">
+        <button type="button" name="add" id="add">Add</button>
+    </form>
+
+<script>
+    let augend = document.getElementById('augend');
+    let addend = document.getElementById('addend');
+    let sum = document.getElementById('sum');
+    let add = document.getElementById('add');
+
+    add.onclick = function() {
+        sum.value = Number(augend.value) + Number(addend.value);
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+	C	-	Create (Insert)
+	R	-	Read (Select)
+	U	-	Update (Update)
+	D	-	Delete (Delete)
+	
+	Function
+	Array
+	
+	
+	Formal - Eg. School, College, Mobile Communication, LPG, Spare parts
+	Informal - slam-book, resume-builder
+	
+	
+	Voucher No		Value	Password						status		transaction_id
+	989878			100		Xlakjflsjf090823w24ljksdf		consumed	876765

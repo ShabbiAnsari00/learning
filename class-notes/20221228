@@ -1,0 +1,30 @@
+
+	Sorting
+	
+	School Project
+		- Student (Name, dob, gender, class, ...)
+		- Staff (Name, id, gender, dob, designation, ...)
+		- Exam (id, name, date, ...)
+		
+		student s;
+		
+		
+	Problem statement:
+		- 
+		
+		TPS	-	Transaction Processing System
+		MIS -	Management Information System (Reporting)
+		DSS	-	Decision Support System
+		
+		optional voucher
+		reversing journal voucher
+		memorandum voucher
+		
+		Scenario Forecast
+		
+		Room Allocation:
+		
+		Software Requirement Statement
+		%s
+		%[^\n]
+		

@@ -1,0 +1,82 @@
+
+	C	-	Create	(Insert)
+	R	-	Read	(Select)
+	U	-	Update	(Update)
+	D	-	Delete 	(Delete)
+	
+	
+	Structure	-	Schema
+	Data		-	Instance
+	
+	DDL	-	Data Definition Language
+			Set of commands used to define/alter the structure of
+			database and database objects.
+			
+	DML	-	Data Manipulation Language
+			Set of commands used to manipulate data in the database.
+			
+	
+	Oracle
+	MS SQL Server
+	MySQL/Mariadb
+	Sqlite
+	PostgreSQL
+	
+	
+	MySQL
+		SHOW DATABASES
+		
+	SQL Server
+		SELECT name FROM sys.databases;
+		
+	SQLite
+		.databases
+		
+	
+													--------
+													ER Model
+													---------	
+	
+CREATE TABLE student
+(
+admission_number INT PRIMARY KEY,
+name VARCHAR(50),
+gender CHAR(1),
+date_of_birth DATE
+);
+	
+	
+	Non-Procedural Language, 4GL, Declarative
+	
+CREATE:
+INSERT INTO student VALUES(1, 'Shabbi Ansari', 'M', '2001-12-18', '987452589');
+INSERT INTO student VALUES(2, 'Ajay Kumar', 'M', '2002-08-19', '6523985647');
+INSERT INTO student VALUES(3, 'Seema Kumari', 'F', '2001-12-12', '8745956235');
+INSERT INTO student VALUES(4, 'Kriti Kashyap', 'F', '2003-08-02', '8252636985');
+INSERT INTO student VALUES(5, 'Md Saquib', 'M', '2001-01-01', '7845125963');
+INSERT INTO student VALUES(6, 'Sohan Gupta', 'M', '2001-11-11', '9212425639');
+	
+	ALTER TABLE student ADD COLUMN contact_number CHAR(10);
+READ:
+	SELECT * FROM student;
+
+UPDATE:
+	UPDATE student SET contact_number='9745896523' WHERE admission_number=1;	
+
+DELETE:
+	DELETE FROM student WHERE admission_number=6;
+	
+
+								!!Backup is very important!!
+								
+	CORS
+	
+	CREATE A TABLE FOR MARKS WITH RELEVANT COLUMNS IN SCHOOL DATABASE.
+	CREATE A TABLE FOR FEES WITH RELEVANT COLUMNS IN SCHOOL DATABASE.
+	
+	
+	
+	
+	
+	
+	

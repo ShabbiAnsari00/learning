@@ -1,0 +1,40 @@
+Characteristics of a good program:
+	1. Efficiency
+	2. Robustness (proper verification/validation)
+	3. Portable
+	4. Testability (unit testing)
+	
+	
+	e-commerce
+	e-biz
+	e-banking
+	e-learning
+	e-governance
+	
+	Ph. D
+	
+	Doctor in Philosophy
+	
+	- unit testing
+	- integration testing
+	- system testing
+	
+	phpunit	-	php
+	ntest	-	dotnet
+	junit	-	java
+	cunit	-	c/c++z
+	
+	
+	- whitebox/glassbox testing
+	- blackbox testing
+	
+	
+	7 principles of testing:
+		- Exhaustive testing is not possible
+		
+	Files:
+	CSV: comma separated values
+	
+	student.dat
+	
+	

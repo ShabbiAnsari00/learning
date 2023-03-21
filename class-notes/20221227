@@ -1,0 +1,13 @@
+
+ Structure feature is used to define a new data type/structure.
+ 
+ basic - int, char, float, double etc.
+ advance - array
+ 
+ word size - 8-bit, 16-bit, 32-bit, 64-bit (8 bytes)
+ 
+ Procedure Oriented Programming	-	C++, Python
+ Object Oriented Programming	-	C++, Java, Python
+ 
+ Every C program is a C++ program but the opposite does not hold
+ true.

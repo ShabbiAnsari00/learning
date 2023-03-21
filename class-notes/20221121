@@ -1,0 +1,9 @@
+Create a function two swap two values. Test it using inputs from main function.
+
+
+	a	-	value
+	&a	-	address/reference
+	
+	p	-	value (which is an address of another variable)
+	&p	-	address/reference
+	*p	-	value of the variable whose address is held by the pointer

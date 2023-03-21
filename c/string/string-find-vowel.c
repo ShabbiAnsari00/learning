@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
 int main(void)
 {
-	char str[100];
-	int i,vo=0;
-	printf("write a sentance min (25) letters: ");
-	scanf("%[^\n]", str);
-	for (i=0; str[i]='/0'; i++)
-	{
-		if (str[i] =='a' || str[i] =='A' || str[i] =='e' || str[i] =='E' || str[i] =='i' ||str[i] =='I' || str[i] =='o' || str[i] =='O' || str[i] =='u' || str[i] =='U');
-		vo++;
-	}
-	printf("vowel is = %d", vo-1);
-	
-	return 0;
+    char str[100];
+    int i = 0, vo = 0;
+    printf("Enter a string: ");
+    scanf("%[^\n]", str);
+    while (str[i] != '\0')
+    {
+        if (toupper(str[i]) == 'A' || toupper(str[i]) == 'E' || toupper(str[i]) == 'I' || toupper(str[i]) == 'O' || toupper(str[i]) == 'U')
+            vo++;
+
+        i++;
+    }
+    printf("vowel is = %d\n", vo);
+
+    return 0;
 }

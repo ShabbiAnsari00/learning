@@ -3,15 +3,17 @@
 int main(void)
 {
     char str[20];
-    int i, word;
+    int i, word = 1;
     printf("Enter string: ");
     scanf("%[^\n]", str);
     while (str[i] != '\0')
     {
         if (str[i] == ' ')
-            word++;
-
+        {
+            if (str[i + 1] != '\0')         //Validation (Bug fixing)
+                word++;
+        }
         i++;
     }
-    printf("Total words is = %d", word);
+    printf("Total words is = %d\n", word);
 }

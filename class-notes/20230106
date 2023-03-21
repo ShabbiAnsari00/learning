@@ -1,0 +1,59 @@
+Hostel Management System
+	- Room Management
+	- Hosteller Management
+	- Staff Management
+	- Room Allocation Management
+	- Room Rellocation Managment
+	- Room Dellocation Management
+	- Payments
+	- Reports
+	
+	Admin
+	Staff
+	Hosteller
+	
+	Linux Terminal
+	
+	struct room
+	{
+		int room_no;
+		char room_type[5];
+	};
+	
+	void new_room()
+	{
+	
+	}
+	
+	void edit_room()
+	{
+	
+	}
+	
+	void delete_room()
+	{
+	
+	}
+	
+	void list_room()
+	{
+	
+	}
+	
+	int main(void)
+	{
+	
+	}
+	
+	
+	201
+	
+	1805
+	
+	Object Oriented Programming
+		- Encapsulation
+		- Abstraction
+		- Inheritance
+		- Polymorphism
+		
+		

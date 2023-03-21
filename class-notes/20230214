@@ -1,0 +1,58 @@
+
+	WAP to search a word in a file.
+	WAP to search a record in a file.
+	
+	1	Seema Kumari	F	Muzaffarpur
+	
+	
+	Theoretically
+	
+	Database:	A collection of related data.
+	
+	File:	A collection of related data.
+	
+	40 L
+	
+	Database is a file.
+	DBMS: Database Management System is a software used to maintain database (file).
+	
+	Types of DBMS:
+		1. Hierarchical
+		2. Network
+		3. Relational
+				Oracle, MS SQL Server, MS Access, MS SQL Server Compact Edition, MySQL, Mariadb, SQLite, PostgreSQL
+				
+	Most RDBMS use a language called SQL.
+	
+	IBM: International Business Machine
+	
+	Select name from student;
+	
+	Insert into student values()
+	
+	Like SQL there are other query languages QBE being one of the popular one.
+	
+	SQL:	Structurured Query Language
+	QBE:	Query By Example
+	
+	
+	Miniworld:
+		school
+			student
+				admission_no: int
+				class_roll_no: int
+				name: varchar(50)
+				gender: char(1)
+				date_of_birth: date
+			staff
+				staff_id: int
+				name: varchar(50)
+				gender: char(1)
+				data_of_birth: date
+				
+		In RDBMS, database is a collection of relations (table).
+			
+	
+	
+	
+	

@@ -55,7 +55,7 @@ void sort_alphabetically() // Selection sort
     {
         for (int j = i + 1; j < SIZE; j++)
         {
-            if(strcmp(cen[i].city, cen[j].city) > 0)
+            if (strcmp(cen[i].city, cen[j].city) > 0)
             {
                 struct census t = cen[i];
                 cen[i] = cen[j];
@@ -81,9 +81,15 @@ void sort_literacy_level() // Bubble sort
     }
 }
 
-void sort_population()      //Insertion sort
+void sort_population() // Insertion sort
 {
- for(int i =0;)
+    for (int i = 0; i < SIZE; i++)
+    {
+        scanf("%d", cen[i]);
+    }
+    for (i = 0; i < size; i++)
+    {
+        }
 }
 
 void display()

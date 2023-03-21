@@ -1,0 +1,54 @@
+
+
+	Tight Cohesion
+	Loose Coupling
+	
+	1. Function with no argument and no return value.
+		void abort(void);
+			
+	2. Function with argument and no return value.
+		void exit(int status);
+	
+	3. Function with argument and one return value.
+		double sqrt(double x);
+		int printf(const char *format, ...);		//special case
+		double cos(double x);
+		
+	4. Function with no arguments but returns a value.
+		int getchar(void);
+	
+	
+	
+	function with variable number of argument
+	
+	void main()
+	{
+		clrscr();
+		
+		getch();
+	}
+	
+	
+	1000
+	
+	1000/2
+	break;
+	divisions = 1
+	.
+	.
+	.
+	1000/500
+	
+	499 divisions
+	
+	2 facts:
+		- Every number is divisible by 1 and itself
+	
+	10	=	1, 2, 5, 10
+	
+	20 = 1, 2, 4, 5, 10, 20
+	
+	15 = 1, 3, 5, 15
+	
+	
+	

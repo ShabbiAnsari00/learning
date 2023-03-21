@@ -1,0 +1,27 @@
+
+	mysql 
+	
+	SQL Commands
+		DDL: Data Definition Language: CREATE, ALTER, DROP, TRUNCATE
+		DML: Data Manipulation Language: INSERT, DELETE, UPDATE
+		DQL: Data Query Language: SELECT
+		DCL: Data Control Language: GRANT, REVOKE
+		
+	root, shabbi
+	
+	Database objects:
+		Table (Collection of rows)
+		Database (Collection of tables)
+		View
+		Index
+		User
+		
+		goto
+		
+		CREATE DATABASE
+		CREATE TABLE
+		CREATE VIEW
+		CREATE INDEX
+		CREATE USER
+		
+		CREATE USER shabbi IDENTIFIED BY shabbi;
