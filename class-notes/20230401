@@ -1,0 +1,23 @@
+
+	variable (primitive)
+	array
+	variable (user-defined)	-	struct
+	
+	Data structure
+		Array
+		Linked List
+		Stack	-	LIFO	-	Last In First Out
+		Queue	-	FIFO	-	First In First Out
+		Tree	-	Hierarchy
+		Graph	-	Network
+		
+	1. Inline
+	2. Internal
+	3. External
+	
+	C	-	Create
+	R	-	Read
+	U	-	Update
+	D	-	Delete
+	
+	Object Oriented Programming with C++ - Balagurusamy

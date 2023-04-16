@@ -30,13 +30,16 @@ $friends = list_all_friends();
                 <?php
                 foreach ($friends as $friend) {
                 ?>
-                    <tr>
-                        <td><?php echo $friend['id']?></td>
-                        <td><?php echo $friend['first_name']?></td>
-                        <td><?php echo $friend['middle_name']?></td>
-                        <td><?php echo $friend['last_name']?></td>
-                        <td><button>Edit</button> <button>Delete</button></td>
-                    </tr>
+                    <form method="post">
+                        <tr>
+                            <td><?php echo $friend['id'] ?></td>
+                            <input type="hidden" name="id" id="id" value="<?php echo $friend['id'] ?>">
+                            <td><?php echo $friend['first_name'] ?></td>
+                            <td><?php echo $friend['middle_name'] ?></td>
+                            <td><?php echo $friend['last_name'] ?></td>
+                            <td><button formaction="edit-form.php">Edit</button> <button formaction="delete.php">Delete</button></td>
+                        </tr>
+                    </form>
                 <?php
                 }
                 ?>
