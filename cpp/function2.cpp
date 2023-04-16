@@ -1,19 +1,20 @@
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
-int add(int a, float b) {
-    return 0;
+float add(int a, float b) {
+    return roundf(a + b);
 }
 
 int main() {
 
-    int sum;
+    float sum;
 
-    sum = add(100, 78);
+    sum = add(20, 1.8F);
 
-    cout << "20 + 1.8 " =  << sum << endl;   
+    cout << "20 + 1.8 = "  << sum << endl;   
 
     return 0;
 }
